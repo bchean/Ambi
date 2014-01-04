@@ -1,0 +1,56 @@
+<!-- Based on HTML5 Boilerplate -->
+
+<!DOCTYPE html>
+<html class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>make your own ambience</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+</head>
+
+<body>
+    <div id="header">
+        <h1>make your own ambience</h1>
+    </div>
+
+    <div id="control">
+        <img id="button-play-pause" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAABIAAAASABGyWs+AAACX0lEQVRIx92VQWsTQRTH32w2u8lmzXZNdjeNphBqrbTgF/DgB/DqR/Dk1/DkUQXpxYNQ8VDxUsRTwUpP6klIsUUsAbW0SZPspLvZ3dl5z0NokdLapLaXvuMb+P14M3/eMCKCiyzlQumXUyCEyPT7fQMRL0bAOXcajcZCs9l82Ol0rkkp/0vAjqao1WpVOeerrutNt1q760KIJcuylkql0kY2mx3bph7XJAIyDIPValPzYRjO7e21H7Tb7eVisfjKdd0vuq7HjLEzTzDZ6/mr9Xp9RkoJw2OCKIqh09nrcs5XTNNc9Dz3g2ma/mmi4yYgIiIkAiICJAJCAlVVwXFc27Ls+71e997m5vdP+by+6HneO9u2txVFGVkARASEeAhHQkAc9hhjMDFh5wtm8S7n/p0fW811/dfvJcd13rqO8y2TyeBIE9AB/FCEkEqEVKSQphKklJDN5lTLKt3e2dme4tzPWMXiY8Mwon8KGGPDK/oLLlMJcZxAnAiQEoGQQKKEfp8PRBKtVCfdJ7Xa9Y+apiWnXlEulwNN04ZwJBBCQDiIQAgJB1MFwX4ahP3PV23r2dSt6eVCobA/8iMrikLAGCEiJEJAsD+AVA7hURQh592NK6axMD83+9qyrNZZUgSEBCKVEARDeJIk4Pe6PzVNeTlzo/6iXC5vnZSakQSISNEghiiKgfu9LqJ4U6tVn1cqla+qqo61pI5NUZIICMLdOIrC9xXPeVqtVtd0XRfjgE8UMMbI97tr5XL50ezN+rJhFIKzgA95R1eFlFKJ4ziXz+fDUffNWILzrkv4ZZ53/QH8nnGreOEFzQAAACJ6VFh0U29mdHdhcmUAAHjaKy8v18vMyy5OTixI1csvSgcANtgGWBBTylwAAAAASUVORK5CYII=" title="play" />
+    </div>
+
+    <div id="players">
+
+        <div id="weather">
+
+            <div id="rain">
+                <input id="check-rain" type="checkbox" />
+                <span>rain</span>
+                <div id="yt-rain"></div>
+            </div>
+
+        </div>
+
+        <div id="youtube-playlist">
+            <input id="check-yt-playlist" type="checkbox" />
+            <span>youtube playlist</span>
+            <input id="text-yt-playlist" type="text" />
+            <div id="yt-playlist"></div>
+        </div>
+
+    </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+    <script src="js/plugins.js"></script>
+    <script src="js/db.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
+
